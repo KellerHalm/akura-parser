@@ -1,0 +1,10 @@
+name: akura_parser
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+workspace:
+  - packages/parser_core
+  - packages/parser_http
+  - packages/parser_sources
+  - packages/parser_plugins

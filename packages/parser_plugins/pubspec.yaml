@@ -1,4 +1,4 @@
-name: parser_sources
+name: parser_plugins
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
@@ -8,6 +8,8 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  # path: ^1.9.0
+ dependencies:
   parser_core:
     path: ../parser_core
   parser_http:
